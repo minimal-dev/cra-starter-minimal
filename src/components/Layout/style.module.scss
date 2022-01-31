@@ -1,0 +1,18 @@
+// noinspection CssUnknownTarget
+@import '~styles/mixins';
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-width: 375px;
+  min-height: 100vh;
+}
+
+.main {
+  flex-grow: 1;
+  padding-top: 96px;
+
+  @include b-d(md) {
+    padding-top: 80px;
+  }
+}

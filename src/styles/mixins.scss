@@ -1,0 +1,27 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/mixins';
+@import 'settings';
+
+@mixin b-up($name) {
+  @include media-breakpoint-up($name) {
+    @content;
+  }
+}
+
+@mixin b-d($name) {
+  @include media-breakpoint-down($name) {
+    @content;
+  }
+}
+
+@mixin b-btw($lower, $upper) {
+  @include media-breakpoint-between($lower, $upper) {
+    @content;
+  }
+}
+
+@mixin b-o($name) {
+  @include media-breakpoint-only($name) {
+    @content;
+  }
+}

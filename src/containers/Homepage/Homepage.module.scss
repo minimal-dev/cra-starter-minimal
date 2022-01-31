@@ -1,0 +1,10 @@
+// noinspection CssUnknownTarget
+@import '~styles/mixins';
+
+.pageWrapper {
+  padding-top: 40px;
+
+  @include b-d(lg) {
+    padding-top: 16px;
+  }
+}

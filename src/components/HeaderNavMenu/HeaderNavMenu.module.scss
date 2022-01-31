@@ -1,0 +1,10 @@
+// noinspection CssUnknownTarget
+@import '~styles/mixins';
+
+.headerNavMenu {
+  .navLink {
+    @include b-d(lg) {
+      padding: 12px 16px !important;
+    }
+  }
+}

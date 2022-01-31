@@ -1,0 +1,78 @@
+{
+  "name": "cra-starter-minimal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "6.4.3",
+    "bootstrap": "5.1.3",
+    "classnames": "2.3.1",
+    "cross-env": "7.0.3",
+    "lodash": "4.17.21",
+    "prop-types": "15.8.1",
+    "react": "17.0.2",
+    "react-bootstrap": "2.1.1",
+    "react-dom": "17.0.2",
+    "react-helmet": "6.1.0",
+    "react-router-dom": "6.2.1",
+    "react-scripts": "5.0.0",
+    "sass": "1.49.0",
+    "web-vitals": "2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "serve": "serve -s build -l 9000",
+    "eject": "react-scripts eject",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,ts,tsx,json,mdx,md,css,scss}\"",
+    "prepare": "husky install",
+    "cz": "cz"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "nano-staged": {
+    "*.{js,jsx,ts,tsx,json}": [
+      "eslint"
+    ],
+    "*.{css,scss}": [
+      "stylelint"
+    ],
+    "*.{md,mdx}": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "16.1.0",
+    "@commitlint/config-conventional": "16.0.0",
+    "commitizen": "4.2.4",
+    "craco-alias": "3.0.1",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-import-resolver-alias": "1.1.2",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-json": "3.1.0",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.28.0",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "husky": "7.0.4",
+    "nano-staged": "0.5.0",
+    "prettier": "2.5.1",
+    "stylelint": "14.3.0",
+    "stylelint-config-prettier": "9.0.3",
+    "stylelint-config-recess-order": "3.0.0",
+    "stylelint-config-standard-scss": "3.0.0",
+    "stylelint-prettier": "2.0.0"
+  }
+}
