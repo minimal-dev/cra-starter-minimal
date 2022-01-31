@@ -1,13 +1,15 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 
+import Icon from '~components/Icon'
 import * as style from './Homepage.module.scss'
 
 const Homepage = () => {
   return (
-    <div className={style.pageWrapper}>
-      <Container>Hello World!</Container>
-    </div>
+    <Container className={style.container}>
+      <div>Hello World!</div>
+      <Icon name="icon-telegram" />
+    </Container>
   )
 }
 
