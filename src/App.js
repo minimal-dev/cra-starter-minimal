@@ -5,6 +5,7 @@ import './styles/app.scss'
 
 import RouteURL from '~routes'
 import Homepage from '~containers/Homepage'
+import SVGPreview from '~containers/SVGPreview'
 
 import Layout from './components/Layout'
 
@@ -20,6 +21,9 @@ const App = () => {
     <Layout>
       <Routes>
         <Route path={RouteURL.HOMEPAGE} element={<Homepage />} />
+        {process.env.NODE_ENV === 'development' && (
+          <Route path="/___svg" element={<SVGPreview />} />
+        )}
         {/* Fallback for non-existent routes */}
         <Route path="*" element={<Navigate to={RouteURL.HOMEPAGE} replace />} />
       </Routes>
