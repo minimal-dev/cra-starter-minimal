@@ -21,7 +21,7 @@ const App = () => {
     <Layout>
       <Routes>
         <Route path={RouteURL.HOMEPAGE} element={<Homepage />} />
-        {process.env.NODE_ENV === 'development' && (
+        {process.env.REACT_APP_VERCEL_ENV !== 'production' && (
           <Route path="/___svg" element={<SVGPreview />} />
         )}
         {/* Fallback for non-existent routes */}
