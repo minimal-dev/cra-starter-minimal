@@ -70,7 +70,7 @@
     "husky": "7.0.4",
     "nano-staged": "0.5.0",
     "prettier": "2.5.1",
-    "stylelint": "14.3.0",
+    "stylelint": "14.5.0",
     "stylelint-config-prettier": "9.0.3",
     "stylelint-config-recess-order": "3.0.0",
     "stylelint-config-standard-scss": "3.0.0",
