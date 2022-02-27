@@ -15,7 +15,7 @@
     "react-helmet": "6.1.0",
     "react-router-dom": "6.2.1",
     "react-scripts": "5.0.0",
-    "sass": "1.49.8",
+    "sass": "1.49.9",
     "svg-parser": "2.0.4",
     "web-vitals": "2.1.4"
   },
