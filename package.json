@@ -46,7 +46,7 @@
       "eslint"
     ],
     "*.{css,scss}": [
-      "stylelint"
+      "stylelint --allow-empty-input"
     ],
     "*.{md,mdx}": [
       "prettier --write"
