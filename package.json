@@ -26,7 +26,8 @@
     "serve": "serve -s build -l 9000",
     "eject": "react-scripts eject",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,ts,tsx,json,mdx,md,css,scss}\"",
-    "prepare": "husky install",
+    "copy-bs-settings": "node ./scripts/copy-bs-settings.js",
+    "prepare": "husky install && yarn copy-bs-settings",
     "cz": "cz"
   },
   "browserslist": {
