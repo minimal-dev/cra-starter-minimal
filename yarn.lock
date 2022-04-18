@@ -6748,10 +6748,10 @@ mute-stream@0.0.7:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
   integrity sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s=
 
-nano-staged@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/nano-staged/-/nano-staged-0.6.0.tgz#f62dd9ac709b2b24af0dbe35b245affb5a03d456"
-  integrity sha512-TqbdujUpBMwaBu582a5/BHlxTrs3Mu1DMk8KF2q38M0CTGiY34WRpwaQXTy5jRc5BXGjBCy4XByS69TSaS8WPw==
+nano-staged@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/nano-staged/-/nano-staged-0.7.0.tgz#ebb7daf70abd6ba658646d45df81fe86bcb850a9"
+  integrity sha512-dXR8t3lAUH28HLzDAJyqw8j2HP72sGq1vlFMpTjAAah8euWULjJR4JhML8imUCJWwjpw9aAVwwaAdevQ5YsEzw==
   dependencies:
     picocolors "^1.0.0"
 
