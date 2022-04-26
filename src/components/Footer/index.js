@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 import classNames from 'classnames'
 
 import { LINKS } from './constants'
-import * as style from './style.module.scss'
+import * as style from './Footer.module.scss'
 
 const Footer = () => {
   const fullYear = new Date().getFullYear()
@@ -13,7 +13,7 @@ const Footer = () => {
       <Container className={classNames('text-syne-14', style.footerInner)}>
         <div className={style.footerBottom}>
           <p>
-            &copy; {fullYear} Blockasset. <span>All rights reserved</span>
+            &copy; {fullYear} Minimal. <span>All rights reserved</span>
           </p>
           <ul className={style.footerNav}>
             {LINKS.map(({ name, link }) => (

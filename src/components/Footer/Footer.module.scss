@@ -2,20 +2,12 @@
 
 .footer {
   position: relative;
-  padding-top: 48px;
   margin-top: 88px;
   overflow: hidden;
+  background-color: $black;
 
-  @include b-d(xl) {
-    padding-top: 72px;
-  }
-
-  @include b-d(lg) {
-    padding-top: 64px;
-  }
-
-  @include b-d(md) {
-    padding-top: 40px;
+  p {
+    margin-bottom: 0;
   }
 
   &::after {

@@ -1,6 +1,6 @@
 export const TOP_NAV_ITEMS = [
-  { text: 'ASSET HUB', href: '/' },
-  { text: 'SWAP', href: '/swap' },
-  { text: 'MARKETCAP', href: '/marketcap' },
-  { text: 'NFT MARKETPLACE', href: '/nft-marketplace' },
+  { text: 'Item A', href: '/' },
+  { text: 'Item B', href: '/' },
+  { text: 'Item C', href: '/' },
+  { text: 'Item D', href: '/' },
 ]

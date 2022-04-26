@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import Header from '~components/Header'
 import Footer from '~components/Footer'
 
-import * as style from './style.module.scss'
+import * as style from './Layout.module.scss'
 
 const Layout = ({ children }) => {
   return (
