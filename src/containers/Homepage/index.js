@@ -8,7 +8,7 @@ const Homepage = () => {
   return (
     <Container className={style.container}>
       <div>Hello World!</div>
-      <Icon name="icon-telegram" />
+      <Icon name="icon-telegram" size={64} />
     </Container>
   )
 }
