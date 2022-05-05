@@ -30,34 +30,6 @@
     "prepare": "husky install && yarn copy-bs-settings",
     "cz": "cz"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "nano-staged": {
-    "*.{js,jsx,ts,tsx,json}": [
-      "eslint"
-    ],
-    "*.{css,scss}": [
-      "stylelint --allow-empty-input"
-    ],
-    "*.{md,mdx}": [
-      "prettier --write"
-    ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "devDependencies": {
     "@commitlint/cli": "16.2.4",
     "@commitlint/config-conventional": "16.2.4",
