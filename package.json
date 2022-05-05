@@ -30,34 +30,6 @@
     "prepare": "husky install && yarn copy-bs-settings",
     "cz": "cz"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "nano-staged": {
-    "*.{js,jsx,ts,tsx,json}": [
-      "eslint"
-    ],
-    "*.{css,scss}": [
-      "stylelint --allow-empty-input"
-    ],
-    "*.{md,mdx}": [
-      "prettier --write"
-    ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "devDependencies": {
     "@commitlint/cli": "16.2.3",
     "@commitlint/config-conventional": "16.2.1",
@@ -74,7 +46,7 @@
     "eslint-plugin-react": "7.29.4",
     "eslint-plugin-react-hooks": "4.4.0",
     "husky": "7.0.4",
-    "nano-staged": "0.7.0",
+    "nano-staged": "0.8.0",
     "prettier": "2.6.2",
     "stylelint": "14.7.1",
     "stylelint-config-prettier": "9.0.3",
