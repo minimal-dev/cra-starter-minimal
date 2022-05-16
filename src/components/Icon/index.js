@@ -5,25 +5,29 @@ import sprite from './icons.svg'
 // eslint-disable-next-line no-shadow
 const param = (param) => (typeof param === 'object' ? param : [param, param])
 
-const Icon = React.forwardRef(({ name, size, viewbox, ...rest }, ref) => {
-  const sizes = param(size)
-  const vbox = viewbox ? param(viewbox) : sizes
-  return (
-    <svg
-      {...rest}
-      xmlns="http://www.w3.org/2000/svg"
-      width={sizes[0]}
-      height={sizes[1]}
-      viewBox={`0 0 ${vbox[0]} ${vbox[1]}`}
-      ref={ref}
-    >
-      <use fill="currentColor" xlinkHref={`${sprite}#${name}`} />
-    </svg>
-  )
-})
+const Icon = React.forwardRef(
+  ({ name, size, viewbox, isFromInlineDefs, ...rest }, ref) => {
+    const sizes = param(size)
+    const vbox = viewbox ? param(viewbox) : sizes
+    return (
+      <svg
+        {...rest}
+        xmlns="http://www.w3.org/2000/svg"
+        width={sizes[0]}
+        height={sizes[1]}
+        viewBox={`0 0 ${vbox[0]} ${vbox[1]}`}
+        ref={ref}
+        fill="currentColor"
+      >
+        <use xlinkHref={`${isFromInlineDefs ? '' : sprite}#${name}`} />
+      </svg>
+    )
+  }
+)
 
 Icon.defaultProps = {
   size: [24, 24],
+  isFromInlineDefs: false,
 }
 
 Icon.propTypes = {
@@ -39,6 +43,7 @@ Icon.propTypes = {
     PropTypes.number,
     PropTypes.array,
   ]),
+  isFromInlineDefs: PropTypes.bool,
 }
 
 export default Icon
