@@ -21,9 +21,9 @@ const App = () => {
     <Layout>
       <Routes>
         <Route path={RouteURL.HOMEPAGE} element={<Homepage />} />
-        {process.env.REACT_APP_VERCEL_ENV !== 'production' && (
-          <Route path="/___svg" element={<SVGPreview />} />
-        )}
+        {!['master', 'main'].includes(
+          process.env.REACT_APP_CF_PAGES_BRANCH
+        ) && <Route path="/___svg" element={<SVGPreview />} />}
         {/* Fallback for non-existent routes */}
         <Route path="*" element={<Navigate to={RouteURL.HOMEPAGE} replace />} />
       </Routes>
