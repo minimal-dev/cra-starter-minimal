@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "yarn cross-env REACT_APP_CF_PAGES_URL=$CF_PAGES_URL REACT_APP_CF_PAGES_BRANCH=$CF_PAGES_BRANCH craco build",
     "test": "craco test",
     "serve": "serve -s build -l 9000",
     "eject": "react-scripts eject",
