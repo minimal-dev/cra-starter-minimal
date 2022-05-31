@@ -33,9 +33,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.0.1",
     "@commitlint/config-conventional": "17.0.0",
-    "commitizen": "4.2.4",
     "craco-alias": "3.0.1",
-    "cz-conventional-changelog": "3.3.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "8.5.0",
     "eslint-import-resolver-alias": "1.1.2",
