@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 
-import HeaderNavMenu from '~components/HeaderNavMenu'
+import HeaderNavMenu from './components/HeaderNavMenu'
 
 import * as style from './Header.module.scss'
 
