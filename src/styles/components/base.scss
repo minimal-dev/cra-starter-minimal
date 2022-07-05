@@ -1,6 +1,10 @@
 html,
 body {
   -webkit-overflow-scrolling: touch;
+
+  // Mozilla Firefox
+  scrollbar-width: thin;
+  scrollbar-color: $primary transparent;
 }
 
 body {
