@@ -8,6 +8,14 @@
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
+    },
+    {
+      "matchPackagePatterns": ["^eslint"],
+      "groupName": "eslint packages"
+    },
+    {
+      "matchPackagePatterns": ["^stylelint"],
+      "groupName": "stylelint packages"
     }
   ]
 }
