@@ -1,6 +1,6 @@
 <p align="center">
-    <a href="https://min.studio" target="_blank"><img align=middle width="100" alt="Minimal" src="https://user-images.githubusercontent.com/4237964/152536934-bc22402a-25ba-4d20-9ff8-fc785ee1f3ea.png"></a>
-    <a href="https://create-react-app.dev/"  target="_blank"><img align=middle alt="Create React App" src="https://create-react-app.dev/img/logo.svg" width="136" /></a>
+    <a href="https://min.studio" target="_blank"><img align="middle" width="100" alt="Minimal" src="https://user-images.githubusercontent.com/4237964/222851680-9d8c0f15-c084-488e-a2a1-63592e62b181.svg" /></a>
+    <a href="https://create-react-app.dev/" target="_blank"><img align=middle alt="Create React App" src="https://create-react-app.dev/img/logo.svg" width="136" /></a>
 </p>
 
 # Getting Started with Create React App
